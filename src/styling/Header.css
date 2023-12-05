@@ -1,0 +1,33 @@
+.NavHeader {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #F9EBD9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.NavLink {
+  font-family: 'Roboto Mono', monospace;
+  color: #2B0300;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 40%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #8D4038;
+  padding: 10px 0;
+}
+
+.NavLink:nth-child(2n) {
+  width: 60%;
+}
+
+.NavLink:nth-child(3n) {
+  width: 60%;
+}
+
+.NavLink:nth-child(4n) {
+  width: 40%;
+}

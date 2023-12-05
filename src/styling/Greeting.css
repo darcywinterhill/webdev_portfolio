@@ -1,0 +1,14 @@
+.GreetingWrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+}
+
+.NameWrappere {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
