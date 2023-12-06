@@ -1,11 +1,14 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import ScrollToHash from "./components/ScrollToHash.js";
 import React from 'react';
+
 import './App.css';
-import Header from "./components/Header.js";
-import MainPage from "./components/MainPage.js";
-import AboutPage from "./components/AboutPage.js"
-import SpotifyPlayer from './components/UI/SpotifyPlayer.js';
+
+import ScrollToHash from "./components/ScrollToHash.js";
+import Header from "./components/Header";
+import MainPage from "./components/pages/MainPage";
+import AboutPage from "./components/pages/AboutPage";
+import ExperiencePage from "./components/pages/ExperiencePage";
+import SpotifyPlayer from './components/UI/SpotifyPlayer';
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
         <Header />
         <MainPage />
         <AboutPage />
+        <ExperiencePage />
         
       </div>
     </Router>

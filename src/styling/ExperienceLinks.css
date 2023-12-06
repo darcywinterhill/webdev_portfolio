@@ -1,0 +1,12 @@
+.LinkWrapper {
+  display: flex;
+}
+
+.LinkWrapper h3 {
+  font-family: 'Roboto Mono', monospace;
+  padding: 0 10px;
+}
+
+.ExpLink {
+  text-decoration: none;
+}

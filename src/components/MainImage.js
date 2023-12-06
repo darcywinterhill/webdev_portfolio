@@ -1,4 +1,5 @@
 import "../styling/MainImage.css";
+
 import img from "../images/graduation3.jpg";
 
 

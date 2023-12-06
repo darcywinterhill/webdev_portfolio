@@ -1,0 +1,26 @@
+.ExperiencePageContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F9EBD9;
+  display: flex;
+  justify-content: center;
+}
+
+.ExperienceWrapper {
+  width: 90%;
+  height: fit-content;
+  padding: 10px;
+  background-color: #8D4038;
+  box-sizing: border-box;
+  position: relative;
+  top: 150px;
+}
+
+.ExperienceWrapper h2 {
+  color: white;
+}
+
+.Arrow {
+  width: 30px;
+  height: 30px;
+}

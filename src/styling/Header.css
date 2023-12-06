@@ -2,6 +2,7 @@
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
   background-color: #F9EBD9;
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +15,7 @@
   color: #2B0300;
   text-transform: uppercase;
   text-decoration: none;
-  width: 40%;
+  width: 20%;
   text-align: center;
   box-sizing: border-box;
   border: 1px solid #8D4038;
@@ -22,15 +23,19 @@
 }
 
 .NavLink:nth-child(2n) {
-  width: 60%;
+  width: 30%;
 }
 
 .NavLink:nth-child(3n) {
+  width: 50%;
+}
+
+.NavLink:nth-child(4n) {
   width: 60%;
   border-bottom: 2px solid #8D4038;
 }
 
-.NavLink:nth-child(4n) {
+.NavLink:nth-child(5n) {
   width: 40%;
   border-bottom: 2px solid #8D4038;
 }

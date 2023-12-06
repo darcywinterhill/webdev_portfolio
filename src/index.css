@@ -30,6 +30,10 @@ h1 {
   justify-self: flex-start;
 }
 
+h2 {
+  margin-bottom: 12px;
+}
+
 p {
   font-family: 'Roboto Mono', monospace;
   color: #2B0300;
