@@ -1,24 +1,23 @@
-
+import { BrowserRouter as Router } from "react-router-dom";
+import ScrollToHash from "./components/ScrollToHash.js";
+import React from 'react';
 import './App.css';
 import Header from "./components/Header.js";
-import OnePage from "./components/OnePage.js";
-import Greeting from "./components/Greeting.js";
-// import MainImage from "./components/MainImage.js";
+import MainPage from "./components/MainPage.js";
+import AboutPage from "./components/AboutPage.js"
+import SpotifyPlayer from './components/UI/SpotifyPlayer.js';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <OnePage 
-        bgcolor="#F9EBD9">
-          <Greeting />
-      </OnePage>
-      <OnePage
-        bgcolor="#8D4038">
-
-      </OnePage>
-      
-    </div>
+    <Router>
+      <div className="App">
+        <ScrollToHash />
+        <Header />
+        <MainPage />
+        <AboutPage />
+        
+      </div>
+    </Router>
   );
 }
 

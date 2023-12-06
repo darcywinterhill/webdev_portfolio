@@ -6,6 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  box-shadow: rgba(93, 50, 58, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .NavLink {
@@ -26,8 +27,10 @@
 
 .NavLink:nth-child(3n) {
   width: 60%;
+  border-bottom: 2px solid #8D4038;
 }
 
 .NavLink:nth-child(4n) {
   width: 40%;
+  border-bottom: 2px solid #8D4038;
 }
