@@ -8,13 +8,16 @@ const AboutPage = () => {
       className="AboutPageContainer" 
       id="AboutPage"
     >
-      <div className="AboutWrapper">
+      <div
+        className="AboutWrapper"
+      >
         <h2>About</h2>
-        <div className="AboutContentWrapper">
+        <div 
+          className="AboutContentWrapper"
+        >
           <MainImage />
           <p>bl blab bla</p>
         </div>
-
       </div>
     </div>
   )

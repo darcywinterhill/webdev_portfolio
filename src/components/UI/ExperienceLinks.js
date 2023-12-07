@@ -27,14 +27,6 @@ const ExperienceLinks = () => {
           Work
         </h3>
       </Link>
-      <Link
-        to="" 
-        className="ExpLink"
-      >
-        <h3>
-          CV
-        </h3>
-      </Link>
     </div>
   )
 }

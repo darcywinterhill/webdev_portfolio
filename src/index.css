@@ -34,7 +34,17 @@ h2 {
   margin-bottom: 12px;
 }
 
+h5 {
+  margin-bottom: 5px;
+}
+
 p {
   font-family: 'Roboto Mono', monospace;
   color: #2B0300;
+}
+
+li {
+  font-family: 'Roboto Mono', monospace;
+  color: #2B0300;
+  list-style-type: none;
 }

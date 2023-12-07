@@ -5,6 +5,8 @@
 .LinkWrapper h3 {
   font-family: 'Roboto Mono', monospace;
   padding: 0 10px;
+  color: white;
+  text-decoration: underline;
 }
 
 .ExpLink {

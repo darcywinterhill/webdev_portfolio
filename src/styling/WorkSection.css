@@ -1,0 +1,25 @@
+.WorkSectionContainer {
+  box-sizing: border-box;
+  background-color: #F9EBD9;
+  padding: 10px;
+}
+
+.WorkWrapper {
+  box-sizing: border-box;
+  border-left: 3px dashed #A86520;
+  padding: 10px;
+}
+
+.PlaceP {
+
+}
+
+.TimeP {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.Plus {
+  width: 8px;
+  height: 8px;
+}
