@@ -1,0 +1,28 @@
+[{
+  "title": "Tantverk",
+  "webpage": "https://tantverk.netlify.app/",
+  "image": "../../images/projects/tantverk.png",
+  "about": "A webpage w/ crafts projects. Final project @ Technigo Bootcamp.",
+  "tech": ["React", "React Router", "Redux", "Sanity", "@material-ui"]
+},
+{
+  "title": "Munamii Cakery",
+  "webpage": "https://munamii-mockup.netlify.app/",
+  "image": "../../images/projects/munamii.png",
+  "about": "A mockup webpage for a cakery.",
+  "tech": ["HTML", "CSS", "JavaScript"]
+},
+{
+  "title": "Vacay Planner",
+  "webpage": "https://vacay-planner.netlify.app/",
+  "image": "../../images/projects/vacay-planner.png",
+  "about": "A to-do app where you can add and remove tasks and mark them as done/not done.",
+  "tech": ["React", "Redux", "Styled Components"]
+},
+{
+  "title": "Popular Movies",
+  "webpage": "https://popular-movie-project.netlify.app/",
+  "image": "../../images/projects/movies.png",
+  "about": "A page w/ popular movies. Built to look the same as the project model.",
+  "tech": ["React", "Hooks", "React Router", "API's"]
+}]

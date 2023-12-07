@@ -2,13 +2,13 @@
   display: flex;
 }
 
-.LinkWrapper h3 {
+.ExpLinkHeading {
   font-family: 'Roboto Mono', monospace;
-  padding: 0 10px;
-  color: white;
+  font-size: 16px;
   text-decoration: underline;
 }
 
 .ExpLink {
+  padding: 0 10px;
   text-decoration: none;
 }

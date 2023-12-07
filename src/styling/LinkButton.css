@@ -1,0 +1,10 @@
+.ProjectLink {
+font-family: 'Roboto Mono', monospace;
+color: #2B0300;
+text-transform: uppercase;
+text-decoration: none;
+border: 2px solid #8D4038;
+padding: 10px 0;
+width: 100%;
+text-align: center;
+}

@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import MainPage from "./components/pages/MainPage";
 import AboutPage from "./components/pages/AboutPage";
 import ExperiencePage from "./components/pages/ExperiencePage";
-import SpotifyPlayer from './components/UI/SpotifyPlayer';
+// import SpotifyPlayer from './components/UI/SpotifyPlayer';
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
         <MainPage />
         <AboutPage />
         <ExperiencePage />
-        
       </div>
     </Router>
   );

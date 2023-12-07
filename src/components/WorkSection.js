@@ -14,10 +14,6 @@ const WorkSection = ({ role, place, time, keywords }) => {
     );
 
   return(
-    <div 
-      className="WorkSectionContainer" 
-      id="WorkSection"
-    >
       <div className="WorkWrapper">
         <h4>{role}</h4>
         <p className="PlaceP">{place}</p>
@@ -25,7 +21,6 @@ const WorkSection = ({ role, place, time, keywords }) => {
         <h5>Keywords:</h5>
         <ul>{listItems}</ul>
       </div>
-    </div>
   )
 }
 

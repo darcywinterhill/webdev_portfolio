@@ -1,10 +1,14 @@
 import "../../styling/ExperiencePage.css";
+
+import work from "../../data/Work.json";
+import project from "../../data/Project.json";
+
 import ExperienceLinks from "../UI/ExperienceLinks";
 import WorkSection from "../../components/WorkSection";
-import work from "../../data/Work.json";
+import ProjectSection from "../../components/ProjectSection";
 
-const allData = (values) => {
-  return(
+const allWorkData = (values) => {
+  return (
     <WorkSection
       key={values.role}
       role={values.role}
@@ -16,20 +20,49 @@ const allData = (values) => {
   )
 }
 
+const allProjectData = (values) => {
+  return (
+    <ProjectSection 
+      key={values.title}
+      title={values.title}
+      webpage={values.webpage}
+      image={values.image}
+      about={values.about}
+      tech={values.tech}
+    />
+  )
+}
+
 const ExperiencePage = () => {
   return (
     <div 
       className = "ExperiencePageContainer"
       id = "ExperiencePage" 
     >
-      <div 
+      {/* <div 
         className="ExperienceWrapper"
-      >
-        <h2>Experience</h2>
-        <ExperienceLinks />
-        {work.map(allData)}
+      > */}
+        <div className="ExperienceHeader">
+          <h2>Experience</h2>
+          <ExperienceLinks />
+        </div>
+
+        <div 
+          className="ProjectSectionContainer" 
+          id="ProjectSection"
+        >
+          <h3 className="ExperienceHeading">Projects</h3>
+        {project.map(allProjectData)}
+        </div>
+        <div 
+          className="WorkSectionContainer" 
+          id="WorkSection"
+        >
+          <h3 className="ExperienceHeading">Work</h3>
+        {work.map(allWorkData)}
+        </div>
       </div>
-    </div>
+    // </div>
   )
 }
 

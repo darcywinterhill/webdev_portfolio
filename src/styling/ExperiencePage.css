@@ -3,10 +3,11 @@
   min-height: 100vh;
   background-color: #F9EBD9;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.ExperienceWrapper {
+/* .ExperienceWrapper {
   width: 90%;
   height: fit-content;
   padding: 10px;
@@ -14,8 +15,17 @@
   box-sizing: border-box;
   position: relative;
   top: 150px;
+} */
+
+.ExperienceHeader {
+  display: flex;
+  margin-top: 100px;
+  width: 90%;
 }
 
+.ExperienceHeading {
+  margin: 100px 0 25px 0;
+}
 .ExperienceWrapper h2 {
   color: white;
 }
@@ -23,4 +33,21 @@
 .Arrow {
   width: 30px;
   height: 30px;
+}
+
+.ProjectSectionContainer {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+  width: 90%;
+  height:fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WorkSectionContainer {
+  box-sizing: border-box;
+  background-color: #F9EBD9;
+  padding: 10px;
 }
