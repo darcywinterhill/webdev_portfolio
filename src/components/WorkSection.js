@@ -1,4 +1,4 @@
-import "../styling/WorkSection.css";
+import "./styling/WorkSection.css";
 import plus from "../images/plus.png";
 
 const WorkSection = ({ role, place, time, keywords }) => {

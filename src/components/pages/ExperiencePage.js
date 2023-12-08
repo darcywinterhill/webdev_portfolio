@@ -1,4 +1,4 @@
-import "../../styling/ExperiencePage.css";
+import "./styling/ExperiencePage.css";
 
 import work from "../../data/Work.json";
 import project from "../../data/Project.json";

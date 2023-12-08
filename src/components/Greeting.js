@@ -1,4 +1,4 @@
-import "../styling/Greeting.css";
+import "./styling/Greeting.css"
 
 import ConnectButton from "./UI/ConnectButton";
 

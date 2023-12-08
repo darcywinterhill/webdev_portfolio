@@ -1,10 +1,10 @@
-import "../../styling/MiscPage.css"
+import "./styling/MiscPage.css"
 import duck from "../../images/rubberduck.png";
 import github from "../../images/githublogo.png";
 import linkedin from "../../images/linkedinlogo.png";
 import email from "../../images/emaillogo.png";
 
-import SpotifyPlayer from "../UI/SpotifyPlayer";
+import SpotifyPlayer from "../UI/SpotifyPlayer.js";
 
 const MiscPage = () => {
   return (

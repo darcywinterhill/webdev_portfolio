@@ -1,4 +1,4 @@
-import "../../styling/MiscPage.css"
+import "../pages/styling/MiscPage.css";
 
 const SpotifyPlayer = () => {
   return ( 

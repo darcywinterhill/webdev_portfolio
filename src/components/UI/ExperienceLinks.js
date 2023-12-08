@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import "../../styling/ExperienceLinks.css";
+import "./styling/ExperienceLinks.css";
 import arrow from "../../images/arrow-yellow.png";
 
 const ExperienceLinks = () => {

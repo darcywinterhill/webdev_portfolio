@@ -1,4 +1,4 @@
-import "../../styling/MainPage.css";
+import "./styling/MainPage.css";
 
 import Greeting from "../Greeting";
 

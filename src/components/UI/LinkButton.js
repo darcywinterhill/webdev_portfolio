@@ -1,4 +1,4 @@
-import "../../styling/LinkButton.css";
+import "./styling/LinkButton.css";
 
 const LinkButton = ({ webpage }) => {
   return (

@@ -1,4 +1,4 @@
-import "../../styling/ConnectButton.css";
+import "./styling/ConnectButton.css";
 
 const ConnectButton = () => {
   return (

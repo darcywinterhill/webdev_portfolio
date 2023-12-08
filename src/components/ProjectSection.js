@@ -1,4 +1,5 @@
-import "../styling/ProjectSection.css";
+import "./styling/ProjectSection.css";
+
 import plus from "../images/plus.png";
 import LinkButton from "../components/UI/LinkButton";
 

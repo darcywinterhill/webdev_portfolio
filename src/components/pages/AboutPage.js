@@ -1,4 +1,4 @@
-import "../../styling/AboutPage.css"
+import "./styling/AboutPage.css";
 
 import MainImage from "../MainImage";
 
