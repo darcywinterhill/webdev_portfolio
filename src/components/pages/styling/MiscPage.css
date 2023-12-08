@@ -45,6 +45,10 @@
   text-align: left;
 }
 
+.MiscContent > p {
+  font-style: italic;
+}
+
 .MiscContent:nth-child(1) {
   width: 100%;
   padding-bottom: 20px;
