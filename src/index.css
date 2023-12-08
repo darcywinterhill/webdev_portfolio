@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,6 +35,10 @@ h2 {
   margin-bottom: 12px;
 }
 
+h4 {
+  margin-bottom: 10px;
+}
+
 h5 {
   margin-bottom: 5px;
 }
@@ -48,3 +53,4 @@ li {
   color: #2B0300;
   list-style-type: none;
 }
+

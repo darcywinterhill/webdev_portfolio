@@ -1,0 +1,92 @@
+.MiscPageContainer {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: #8D4038;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiscWrapper {
+  box-sizing: border-box;
+  width: 90%;
+  margin-top: 100px;
+  padding: 10px;
+  height: fit-content;
+  background-color: #F9EBD9;
+  box-sizing: border-box;
+}
+
+.MiscContentWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MiscContentWrapper .ExtraLinkContainer {
+  margin-top: 0;
+  margin: auto;
+}
+
+.MiscContent .ExtraLink {
+  text-align: center;
+}
+
+.MiscContent {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.MiscContent:nth-child(1) {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 3px dashed #A86520;
+}
+
+.MiscContent:nth-child(2) {
+  width: 50%;
+  padding: 10px 10px 15px 0;
+  box-sizing: border-box;
+  border-right: 3px dashed #A86520;
+}
+
+.MiscContent:nth-child(3) {
+  width: 50%;
+  padding: 10px 0 15px 10px;
+  box-sizing: border-box;
+}
+
+.SpotifyWrapper {
+  width: 100%;
+  height:fit-content;
+  margin-top: 15px;
+}
+
+.Duck {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+  background-color: #2B0300;
+}
+
+footer img {
+  width: 80px;
+  height: 80px;
+}

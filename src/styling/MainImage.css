@@ -1,4 +1,9 @@
-.ImgContainer {
-  width: 40%;
+
+
+.Img {
+  float: left;
+
+  box-sizing: border-box;
+  margin-right: 15px;
 }
 

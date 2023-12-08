@@ -1,22 +1,36 @@
 .ProjectWrapper {
+  box-sizing: border-box;
   width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
 
 .ProjectImage {
-  width: 100%;
+  width: 50%;
   height: auto;
+  box-sizing: border-box;
+  border: 2px solid #A86520;
+  border-radius: 5%;
 }
 
-.ContentContainer {
+.TechContainer {
   display: flex;
+  justify-content: space-between;
 }
 
 .ContentWrapper {
-  width: 60%;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .TechWrapper {
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
   width: 40%;
+  padding-left: 1em;
+  text-indent: -1em;
 }

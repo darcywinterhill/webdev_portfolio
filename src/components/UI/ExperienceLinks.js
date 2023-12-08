@@ -12,7 +12,7 @@ const ExperienceLinks = () => {
         alt="play arrow"
       />
       <Link 
-        to="/ExperiencePage#ProjectSection" 
+        to="/ExperiencePage#ExperienceSection" 
         className="ExpLink"
       >
         <h3 className="ExpLinkHeading">

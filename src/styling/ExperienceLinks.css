@@ -5,10 +5,16 @@
 .ExpLinkHeading {
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
-  text-decoration: underline;
+  
 }
 
 .ExpLink {
   padding: 0 10px;
   text-decoration: none;
+  color: #2B0300;
+}
+
+.ExpLink:nth-child(odd){
+  text-decoration: underline;
+   
 }

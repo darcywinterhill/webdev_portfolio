@@ -10,30 +10,27 @@ const ProjectSection = ({ title, webpage, image, about, tech }) => {
           src={plus}
           className="Plus"
           alt="plus sign"
-        />
-      {tools}
+        /> {tools}
     </li>
 );
 
   return (
     <div className="ProjectWrapper">
-      
-      <img 
-        src={image} 
-        className="ProjectImage" 
-        alt="project"
-      />
-      <div className="ContentContainer">
-        <div className="ContentWrapper">
-          <h4>{title}</h4>
-          <p>{about}</p>
-        </div>
+      <div className="TechContainer">
+        <img 
+          src={image} 
+          className="ProjectImage" 
+          alt="project"
+        />
         <div className="TechWrapper">
           <ul>{listItems}</ul>
         </div>
       </div>
-      <LinkButton 
-      webpage={webpage} />
+      <div className="ContentWrapper">
+        <h4>{title}</h4>
+        <p>{about}</p>
+      </div>
+      <LinkButton webpage={webpage} />
     </div>
   )
 }

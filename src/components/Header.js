@@ -32,7 +32,7 @@ const Header = () => {
         Misc
       </Link>
       <Link 
-        to="/ContactPage#ContactPage"
+        to="/MiscPage#ContactSection"
         className="NavLink"
       >
         Contact
