@@ -40,6 +40,7 @@
   border-bottom: 2px solid #8D4038;
 }
 
+/* TABLET VIEW */
 @media (min-width: 1024px) {
   .NavLink:nth-child(2n) {
     width: 20%;

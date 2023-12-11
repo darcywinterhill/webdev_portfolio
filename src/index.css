@@ -54,6 +54,7 @@ li {
   list-style-type: none;
 }
 
+/* TABLET VIEW */
 @media (min-width: 768px) {
   h2 {
     font-size: 30px;

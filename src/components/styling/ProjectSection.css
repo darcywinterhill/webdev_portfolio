@@ -38,6 +38,7 @@
   text-indent: -1em;
 }
 
+/* TABLET VIEW */
 @media (min-width: 768px) {
   .ProjectImage {
     width: 60%;
@@ -48,10 +49,10 @@
   }
 }
 
+/* DESKTOP VIEW */
 @media (min-width: 1024px) {
   .ProjectWrapper {
     margin-top: 30px;
     width: 49%;
   }
-
 }

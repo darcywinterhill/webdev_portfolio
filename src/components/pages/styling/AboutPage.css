@@ -22,6 +22,7 @@
   text-align: justify; 
 }
 
+/* TABLET VIEW */
 @media (min-width: 768px) {
   .AboutWrapper {
     width: 70%;
@@ -29,6 +30,7 @@
   }
 }
 
+/* DESKTOP VIEW */
 @media (min-width: 1024px) {
   .AboutWrapper {
     margin-top: 80px;

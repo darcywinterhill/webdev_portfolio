@@ -1,4 +1,5 @@
 import "./styling/WorkSection.css";
+
 import plus from "../images/plus.png";
 
 const WorkSection = ({ role, place, time, keywords }) => {
@@ -14,13 +15,21 @@ const WorkSection = ({ role, place, time, keywords }) => {
     );
 
   return(
-      <div className="WorkWrapper">
-        <h4>{role}</h4>
-        <p className="PlaceP">{place}</p>
-        <p className="TimeP">{time}</p>
-        <h5>Keywords:</h5>
-        <ul>{listItems}</ul>
-      </div>
+    <div className="WorkWrapper">
+      <h4>{role}</h4>
+      <p className="PlaceP">
+        {place}
+      </p>
+      <p className="TimeP">
+        {time}
+      </p>
+      <h5>
+        Keywords:
+      </h5>
+      <ul>
+        {listItems}
+      </ul>
+    </div>
   )
 }
 

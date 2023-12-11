@@ -8,15 +8,12 @@ const AboutPage = () => {
       className="AboutPageContainer" 
       id="AboutPage"
     >
-      <div
-        className="AboutWrapper"
-      >
+      <div className="AboutWrapper">
         <h2>About</h2>
-        <div 
-          className="AboutContentWrapper"
-        >
+        <div className="AboutContentWrapper">
           <MainImage />
-          <p>Hey you! My name is Darcy Winterhill and I am customer experience focused 
+          <p>
+            Hey you! My name is Darcy Winterhill and I am customer experience focused 
             and I love to be creative and find clever solutions. I laugh a lot 
             and I am convinced that I am capable to do everything I set my mind to. 
             There are three things that are fundamental to who I am as a person.
@@ -26,7 +23,9 @@ const AboutPage = () => {
             not giving up on dreams because of fear or comfort.
           </p>
           <br />
-          <p>Let's talk!</p>
+          <p>
+            Let's talk!
+          </p>
         </div>
       </div>
     </div>

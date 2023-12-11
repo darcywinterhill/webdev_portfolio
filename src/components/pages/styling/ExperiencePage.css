@@ -28,11 +28,6 @@
   color: white;
 }
 
-.Arrow {
-  width: 30px;
-  height: 30px;
-}
-
 .ProjectSectionContainer {
   box-sizing: border-box;
   width: 90%;
@@ -63,6 +58,7 @@
   text-decoration: underline;
 }
 
+/* TABLET VIEW */
 @media (min-width: 768px) {
   .ExperienceHeader {
     width: 70%;
@@ -81,8 +77,8 @@
   }
 }
 
+/* DESKTOP VIEW */
 @media (min-width: 1024px) {
-
   .ExperienceHeader {
     margin-top: 80px;
   }

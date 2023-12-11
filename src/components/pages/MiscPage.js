@@ -16,7 +16,9 @@ const MiscPage = () => {
         <h2>Misc</h2>
         <div className="MiscContentWrapper">
           <div className="MiscContent">
-            <h4>The Programming Bootcamp Music Compilation</h4>
+            <h4>
+              The Programming Bootcamp Music Compilation
+            </h4>
             <p>
               "I love music.
               So much that when I was younger (and wasn't good enough at any band stuff, even though I tried it) 
@@ -43,7 +45,9 @@ const MiscPage = () => {
             />
           </div>
           <div className="MiscContent">
-            <h4>"I have never tried that before, so I think I should definitely be able to do that."</h4>
+            <h4>
+              "I have never tried that before, so I think I should definitely be able to do that."
+            </h4>
             <div className="ExtraLinkContainer">
               <a 
                 href="https://darcy-winterhill.medium.com/i-have-never-tried-that-before-so-i-think-i-should-definitely-be-able-to-do-that-46892f4f8bca"

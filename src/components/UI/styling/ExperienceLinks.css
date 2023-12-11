@@ -17,6 +17,7 @@
   text-decoration: underline;
 }
 
+/* TABLET VIEW */
 @media (min-width: 768px) {
   .ExpLinkHeading{
     font-size: 22px;

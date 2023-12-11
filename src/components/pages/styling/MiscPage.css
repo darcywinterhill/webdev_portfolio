@@ -96,6 +96,7 @@ footer img {
   height: 80px;
 }
 
+/* TABLET VIEW */
 @media (min-width: 768px) {
   .MiscWrapper {
     width: 70%;
@@ -107,6 +108,7 @@ footer img {
   }
 }
 
+/* DESKTOP VIEW */
 @media (min-width: 1024px) {
   .MiscWrapper {
     width: 50%;

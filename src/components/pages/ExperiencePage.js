@@ -39,49 +39,57 @@ const ExperiencePage = () => {
       className = "ExperiencePageContainer"
       id = "ExperiencePage" 
     >
-        <div className="ExperienceHeader">
-          <h2>Experience</h2>
-          <ExperienceLinks />
-        </div>
+      <div className="ExperienceHeader">
+        <h2>
+          Experience
+        </h2>
+        <ExperienceLinks />
+      </div>
 
-        <div 
-          className="ProjectSectionContainer" 
-          id="ProjectSection"
-        >
+      <div 
+        className="ProjectSectionContainer" 
+        id="ProjectSection"
+      >
         {project.map(allProjectData)}
 
-          <div className="ExtraLinkContainer">
-            <p>View more projects on&nbsp;</p>
-            <a 
-              href="https://github.com/darcywinterhill" 
-              className="ExtraLink" 
-              target="_blank" 
-              rel="noreferrer">
-                Github
-            </a>
-          </div>
-
-        </div>
-        <div 
-          className="WorkSectionContainer" 
-          id="WorkSection"
-        >
-          <h3 className="ExperienceHeading2">Work</h3>
-        {work.map(allWorkData)}
-        </div>
-
         <div className="ExtraLinkContainer">
-            <p>View full resume&nbsp;</p>
-            <a 
-              href="https://darcywinterhill.github.io/CV/" 
-              className="ExtraLink" 
-              target="_blank" 
-              rel="noreferrer">
-                here
-            </a>
-          </div>
+          <p>
+            View more projects on&nbsp;
+          </p>
+          <a 
+            href="https://github.com/darcywinterhill" 
+            className="ExtraLink" 
+            target="_blank" 
+            rel="noreferrer">
+              Github
+          </a>
+        </div>
+
       </div>
-    // </div>
+      <div 
+        className="WorkSectionContainer" 
+        id="WorkSection"
+      >
+        <h3 className="ExperienceHeading2">
+          Work
+        </h3>
+        {work.map(allWorkData)}
+      </div>
+
+      <div className="ExtraLinkContainer">
+        <p>
+          View full resume&nbsp;
+        </p>
+        <a 
+          href="https://darcywinterhill.github.io/CV/" 
+          className="ExtraLink" 
+          target="_blank" 
+          rel="noreferrer"
+        >
+          here
+        </a>
+      </div>
+    </div>
   )
 }
 

@@ -15,7 +15,9 @@ const ExperienceLinks = () => {
       </Link>
       &nbsp;
       &nbsp;
-      <p>or</p>
+      <p>
+        or
+      </p>
       &nbsp;
       &nbsp;
       <Link
