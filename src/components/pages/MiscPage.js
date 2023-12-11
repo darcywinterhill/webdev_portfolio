@@ -7,6 +7,10 @@ import email from "../../images/emaillogo.png";
 import SpotifyPlayer from "../UI/SpotifyPlayer.js";
 
 const MiscPage = () => {
+
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+
   return (
     <div 
       className="MiscPageContainer" 

@@ -3,6 +3,10 @@ import "./styling/AboutPage.css";
 import MainImage from "../MainImage";
 
 const AboutPage = () => {
+
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+
   return (
     <div 
       className="AboutPageContainer" 
