@@ -1,7 +1,7 @@
 .ProjectWrapper {
   box-sizing: border-box;
   width: 100%;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   padding: 20px;
   background-color: white;
   display: flex;

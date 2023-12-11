@@ -8,31 +8,37 @@ const Header = () => {
       className="NavHeader"
     >
       <Link
-        to="/MainPage#MainPage"
+        to="#Main"
         className="NavLink"
       >
         Home
       </Link>
       <Link 
-        to="/AboutPage#AboutPage"
+        to="#About"
         className="NavLink"
       >
         About
       </Link>
       <Link
-        to="/ExperiencePage#ExperiencePage"  
+        to="#Projects"  
         className="NavLink"
       >
-        Experience
+        Projects
+      </Link>
+      <Link
+        to="#Work"
+        className="NavLink"
+      >
+        Work
       </Link>
       <Link 
-        to="/MiscPage#MiscPage"
+        to="#Misc"
         className="NavLink"
       >
         Misc
       </Link>
       <Link 
-        to="/MiscPage#ContactSection"
+        to="#Contact"
         className="NavLink"
       >
         Contact

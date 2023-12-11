@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div 
       className="AboutPageContainer" 
-      id="AboutPage"
+      id="About"
     >
       <div className="AboutWrapper">
         <h2>About</h2>

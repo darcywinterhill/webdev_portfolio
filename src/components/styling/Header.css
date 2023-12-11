@@ -36,7 +36,7 @@
 }
 
 .NavLink:nth-child(4n) {
-  width: 60%;
+  width: 30%;
   border-bottom: 2px solid #8D4038;
 }
 
@@ -45,23 +45,37 @@
   border-bottom: 2px solid #8D4038;
 }
 
+.NavLink:nth-child(6n) {
+  width: 30%;
+  border-bottom: 2px solid #8D4038;
+}
+
 /* TABLET VIEW */
 @media (min-width: 1024px) {
+  .NavLink:nth-child(1n) {
+    width: calc(100% / 6);
+  }
+
   .NavLink:nth-child(2n) {
-    width: 20%;
+    width: calc(100% / 6);
   }
 
   .NavLink:nth-child(3n) {
-    width: 20%;
+    width: calc(100% / 6);
   }
 
   .NavLink:nth-child(4n) {
-    width: 20%;
+    width: calc(100% / 6);
     border: 1px solid #8D4038;
   }
 
   .NavLink:nth-child(5n) {
-    width: 20%;
+    width: calc(100% / 6);
+    border: 1px solid #8D4038;
+  }
+
+  .NavLink:nth-child(6n) {
+    width: calc(100%/6);
     border: 1px solid #8D4038;
   }
 }

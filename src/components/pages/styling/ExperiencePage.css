@@ -10,18 +10,19 @@
 }
 
 .ExperienceHeader {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   margin-top: 100px;
   width: 90%;
 }
 
-.ExperienceHeading1 {
-  align-self: flex-start;
+.ExperienceHeading {
+  text-decoration: underline;
 }
 
 .ExperienceHeading2 {
   margin-top: 100px;
+  text-decoration: underline;
 }
 
 .ExperienceWrapper h2 {
@@ -57,11 +58,7 @@
   width: 90%;
   box-sizing: border-box;
   background-color: #F9EBD9;
-  padding: 10px;
-}
-
-.ExperienceHeading2 {
-  text-decoration: underline;
+  padding: 0 10px 10px 10px;
 }
 
 /* TABLET VIEW */

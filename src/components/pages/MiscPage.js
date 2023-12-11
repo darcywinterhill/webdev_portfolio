@@ -10,7 +10,7 @@ const MiscPage = () => {
   return (
     <div 
       className="MiscPageContainer" 
-      id="MiscPage"
+      id="Misc"
     >
       <div className="MiscWrapper">
         <h2>Misc</h2>
@@ -61,7 +61,7 @@ const MiscPage = () => {
           </div>
         </div>
       </div>
-      <footer id="ContactSection">
+      <footer id="Contact">
         <a 
           href="https://www.linkedin.com/in/darcywinterhill/" 
           target="_blank" 

@@ -3,7 +3,6 @@ import "./styling/ExperiencePage.css";
 import work from "../../data/Work.json";
 import project from "../../data/Project.json";
 
-import ExperienceLinks from "../UI/ExperienceLinks";
 import WorkSection from "../../components/WorkSection";
 import ProjectSection from "../../components/ProjectSection";
 
@@ -37,18 +36,18 @@ const ExperiencePage = () => {
   return (
     <div 
       className = "ExperiencePageContainer"
-      id = "ExperiencePage" 
+      id = "Projects" 
     >
-      <div className="ExperienceHeader">
+      <div className="ExperienceHeader" id="ProjectSection">
         <h2>
-          Experience
+          Projects
         </h2>
-        <ExperienceLinks />
+        {/* <ExperienceLinks /> */}
       </div>
 
       <div 
         className="ProjectSectionContainer" 
-        id="ProjectSection"
+        // id="ProjectSection"
       >
         {project.map(allProjectData)}
 
@@ -68,11 +67,17 @@ const ExperiencePage = () => {
       </div>
       <div 
         className="WorkSectionContainer" 
-        id="WorkSection"
+        id="Work"
       >
-        <h3 className="ExperienceHeading2">
+              <div className="ExperienceHeader">
+        <h2>
           Work
-        </h3>
+        </h2>
+        {/* <ExperienceLinks /> */}
+      </div>
+        {/* <h3 className="ExperienceHeading2">
+          Work
+        </h3> */}
         {work.map(allWorkData)}
       </div>
 

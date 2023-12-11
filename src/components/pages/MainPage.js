@@ -6,7 +6,7 @@ const MainPage = () => {
   return (
     <div 
       className="MainPageContainer" 
-      id="MainPage"
+      id="Main"
     >
       <Greeting />
     </div>
