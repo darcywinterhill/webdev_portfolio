@@ -7,9 +7,8 @@ const SpotifyPlayer = () => {
       title="player"
       style={{borderRadius: "12px"}}
       src="https://open.spotify.com/embed/playlist/7w5m3PCJGfJQoXH7Vcn5e6?utm_source=generator" 
-      // width="300"
       width="100%"
-      // height="auto" 
+      height="100px"
       frameBorder="0" 
       allowFullScreen="" 
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
