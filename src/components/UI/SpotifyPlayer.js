@@ -11,7 +11,7 @@ const SpotifyPlayer = () => {
       width="100%"
       // height="auto" 
       frameBorder="0" 
-      allowfullscreen="" 
+      allowFullScreen="" 
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
       loading="lazy">
     </iframe>

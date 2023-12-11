@@ -39,3 +39,23 @@
   width: 40%;
   border-bottom: 2px solid #8D4038;
 }
+
+@media (min-width: 1024px) {
+  .NavLink:nth-child(2n) {
+    width: 20%;
+  }
+
+  .NavLink:nth-child(3n) {
+    width: 20%;
+  }
+
+  .NavLink:nth-child(4n) {
+    width: 20%;
+    border: 1px solid #8D4038;
+  }
+
+  .NavLink:nth-child(5n) {
+    width: 20%;
+    border: 1px solid #8D4038;
+  }
+}

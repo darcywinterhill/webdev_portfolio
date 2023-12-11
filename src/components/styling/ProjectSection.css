@@ -2,10 +2,11 @@
   box-sizing: border-box;
   width: 100%;
   margin-top: 15px;
-  padding: 10px;
+  padding: 20px;
   background-color: white;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 .ProjectImage {
@@ -19,11 +20,13 @@
 .TechContainer {
   display: flex;
   justify-content: space-between;
+  margin-bottom: auto;
 }
 
 .ContentWrapper {
   width: 100%;
   margin: 20px 0;
+  margin-bottom: auto;
 }
 
 .TechWrapper {
@@ -33,4 +36,22 @@
   width: 40%;
   padding-left: 1em;
   text-indent: -1em;
+}
+
+@media (min-width: 768px) {
+  .ProjectImage {
+    width: 60%;
+  }
+
+  .TechWrapper {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ProjectWrapper {
+    margin-top: 30px;
+    width: 49%;
+  }
+
 }

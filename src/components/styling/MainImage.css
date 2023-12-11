@@ -1,9 +1,12 @@
-
-
 .Img {
   float: left;
-
   box-sizing: border-box;
-  margin-right: 15px;
+  margin: 0 20px 20px 0;
+}
+
+@media (min-width: 768px) {
+  .Img {
+    width: 200px;
+  }
 }
 

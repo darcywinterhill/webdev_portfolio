@@ -48,7 +48,6 @@ const ExperiencePage = () => {
           className="ProjectSectionContainer" 
           id="ProjectSection"
         >
-          <h3 className="ExperienceHeading1">Projects</h3>
         {project.map(allProjectData)}
 
           <div className="ExtraLinkContainer">

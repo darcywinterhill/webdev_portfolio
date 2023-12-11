@@ -16,7 +16,7 @@ const AboutPage = () => {
           className="AboutContentWrapper"
         >
           <MainImage />
-          <p>My name is Darcy Winterhill and I am customer experience focused 
+          <p>Hey you! My name is Darcy Winterhill and I am customer experience focused 
             and I love to be creative and find clever solutions. I laugh a lot 
             and I am convinced that I am capable to do everything I set my mind to. 
             There are three things that are fundamental to who I am as a person.

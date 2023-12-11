@@ -12,7 +12,7 @@
 .AboutWrapper {
   width: 90%;
   height: fit-content;
-  padding: 10px;
+  padding: 20px;
   background-color: #F9EBD9;
   box-sizing: border-box;
   margin-top: 100px;
@@ -20,4 +20,18 @@
 
 .AboutContentWrapper > p {
   text-align: justify; 
+}
+
+@media (min-width: 768px) {
+  .AboutWrapper {
+    width: 70%;
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .AboutWrapper {
+    margin-top: 80px;
+    padding: 20px 40px;
+  }
 }

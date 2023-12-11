@@ -11,6 +11,7 @@
 
 .ExperienceHeader {
   display: flex;
+  flex-direction: column;
   margin-top: 100px;
   width: 90%;
 }
@@ -56,4 +57,49 @@
   box-sizing: border-box;
   background-color: #F9EBD9;
   padding: 10px;
+}
+
+.ExperienceHeading2 {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .ExperienceHeader {
+    width: 70%;
+  }
+
+  .ProjectSectionContainer {
+    width: 70%;
+  }
+
+  .WorkSectionContainer {
+    width: 70%;
+  }
+
+  .ExtraLink {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .ExperienceHeader {
+    margin-top: 80px;
+  }
+
+  .ProjectSectionContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .ExperienceHeading2 {
+    margin-top: 80px;
+  }
+
+  .ProjectSectionContainer > .ExtraLinkContainer {
+    margin: auto;
+    margin-top: 30px;
+  }
 }

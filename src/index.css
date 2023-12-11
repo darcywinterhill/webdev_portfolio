@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 12px;
+  margin-bottom: 25px;
 }
 
 h4 {
@@ -54,3 +54,28 @@ li {
   list-style-type: none;
 }
 
+@media (min-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+}

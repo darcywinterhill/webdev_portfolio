@@ -1,16 +1,10 @@
 import { Link } from "react-router-dom";
 
 import "./styling/ExperienceLinks.css";
-import arrow from "../../images/arrow-yellow.png";
 
 const ExperienceLinks = () => {
   return (
     <div className="LinkWrapper">
-      <img
-        src={arrow}
-        className="Arrow" 
-        alt="play arrow"
-      />
       <Link 
         to="/ExperiencePage#ExperienceSection" 
         className="ExpLink"
@@ -19,6 +13,11 @@ const ExperienceLinks = () => {
           Projects
         </h3>
       </Link>
+      &nbsp;
+      &nbsp;
+      <p>or</p>
+      &nbsp;
+      &nbsp;
       <Link
         to="/ExperiencePage#WorkSection"
         className="ExpLink"

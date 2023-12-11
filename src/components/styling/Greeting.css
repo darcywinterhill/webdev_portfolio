@@ -12,3 +12,15 @@
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
+
+@media (min-width: 768px) {
+  .GreetingWrapper {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .GreetingWrapper {
+    width: 50%;
+  }
+}
