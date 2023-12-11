@@ -9,3 +9,8 @@
   width: 100%;
   text-align: center;
 }
+
+.ConnectLink:hover {
+  background-color: #8D4038;
+  color: #F9EBD9;
+}

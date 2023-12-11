@@ -6,15 +6,28 @@
   font-family: 'Exo 2', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
+  position: relative;
+  display: block;
+}
+
+.ExpLinkHeading:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 
 .ExpLink {
   text-decoration: none;
   color: #2B0300;
+  font-size: 18px;
 }
 
 .ExpLink:nth-child(1) {
   text-decoration: underline;
+}
+
+.ExpLink:nth-child(2):hover, .ExpLink:nth-child(2):active {
+  font-size: 25px;
 }
 
 /* TABLET VIEW */
