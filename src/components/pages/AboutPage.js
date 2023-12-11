@@ -4,8 +4,10 @@ import MainImage from "../MainImage";
 
 const AboutPage = () => {
 
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  window.addEventListener('resize', () => { //not sure this does anything different to my page
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
 
   return (
     <div 
