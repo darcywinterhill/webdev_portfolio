@@ -7,12 +7,6 @@ import email from "../../images/emaillogo.png";
 import SpotifyPlayer from "../UI/SpotifyPlayer.js";
 
 const MiscPage = () => {
-
-  window.addEventListener('resize', () => { //not sure this does anything different to my page
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-  });
-  
   return (
     <div 
       className="MiscPageContainer" 
@@ -21,6 +15,8 @@ const MiscPage = () => {
       <div className="MiscWrapper">
         <h2>Misc</h2>
         <div className="MiscContentWrapper">
+
+          {/* PLAYLIST ARTICLE */}
           <div className="MiscContent">
             <h4>
               The Programming Bootcamp Music Compilation
@@ -31,7 +27,9 @@ const MiscPage = () => {
               my goal was to get a job as the girl/guy that follows the band on tour and sells merch. 
               Just to be a part of it..."
             </p>
+            {/* SPOTIFY PLAYER */}
             <SpotifyPlayer />
+
             <div className="ExtraLinkContainer">
               <a 
                 href="https://darcy-winterhill.medium.com/the-programming-bootcamp-music-compilation-e4ee97c4fcd"
@@ -43,6 +41,8 @@ const MiscPage = () => {
               </a>
             </div>
           </div>
+
+          {/* RUBBER DUCK */}
           <div className="MiscContent">
             <img
               src={duck} 
@@ -50,6 +50,8 @@ const MiscPage = () => {
               alt="rubber duck"
             />
           </div>
+
+          {/* BOOTCAMP ARTICLE */}
           <div className="MiscContent">
             <h4>
               "I have never tried that before, so I think I should definitely be able to do that."
@@ -67,6 +69,8 @@ const MiscPage = () => {
           </div>
         </div>
       </div>
+
+      {/* FOOTER*/}
       <footer id="Contact">
         <a 
           href="https://www.linkedin.com/in/darcywinterhill/" 

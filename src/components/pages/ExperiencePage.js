@@ -6,19 +6,7 @@ import project from "../../data/Project.json";
 import WorkSection from "../../components/WorkSection";
 import ProjectSection from "../../components/ProjectSection";
 
-const allWorkData = (values) => {
-  return (
-    <WorkSection
-      key={values.role}
-      role={values.role}
-      place={values.place}
-      time={values.time}
-      description={values.description}
-      keywords={values.keywords}
-    />
-  )
-}
-
+// PROPS FOR PROJECTS
 const allProjectData = (values) => {
   return (
     <ProjectSection 
@@ -32,25 +20,40 @@ const allProjectData = (values) => {
   )
 }
 
+// PROPS FOR WORK
+const allWorkData = (values) => {
+  return (
+    <WorkSection
+      key={values.role}
+      role={values.role}
+      place={values.place}
+      time={values.time}
+      description={values.description}
+      keywords={values.keywords}
+    />
+  )
+}
+
 const ExperiencePage = () => {
   return (
     <div 
       className = "ExperiencePageContainer"
       id = "Projects" 
     >
-      <div className="ExperienceHeader" id="ProjectSection">
+      <div 
+        className="ExperienceHeader" 
+        id="ProjectSection"
+      >
         <h2>
           Projects
         </h2>
-        {/* <ExperienceLinks /> */}
       </div>
 
-      <div 
-        className="ProjectSectionContainer" 
-        // id="ProjectSection"
-      >
+      {/* PROJECT SECTION */}
+      <div className="ProjectSectionContainer">
         {project.map(allProjectData)}
 
+        {/* LINK TO GITHUB*/}
         <div className="ExtraLinkContainer">
           <p>
             View more projects on&nbsp;
@@ -63,24 +66,22 @@ const ExperiencePage = () => {
               Github
           </a>
         </div>
-
       </div>
+
+      {/* WORK SECTION */}
       <div 
         className="WorkSectionContainer" 
         id="Work"
       >
-              <div className="ExperienceHeader">
-        <h2>
-          Work
-        </h2>
-        {/* <ExperienceLinks /> */}
-      </div>
-        {/* <h3 className="ExperienceHeading2">
-          Work
-        </h3> */}
+        <div className="ExperienceHeader">
+          <h2>
+            Work
+          </h2>
+        </div>
         {work.map(allWorkData)}
       </div>
 
+      {/* LINK TO RESUME*/}
       <div className="ExtraLinkContainer">
         <p>
           View full resume&nbsp;

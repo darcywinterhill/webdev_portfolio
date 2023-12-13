@@ -4,6 +4,7 @@ import plus from "../images/plus.png";
 
 const WorkSection = ({ role, place, time, keywords }) => {
 
+  // CREATES A LIST OF ALL KEYWORD VALUES IN WORK.JSON
     const listItems = keywords.map((keyword, index) =>
       <li key={index}>
         <img 
@@ -14,6 +15,7 @@ const WorkSection = ({ role, place, time, keywords }) => {
       </li>
     );
 
+  //SHELL FOR ALL JOBS
   return(
     <div className="WorkWrapper">
       <h4>{role}</h4>

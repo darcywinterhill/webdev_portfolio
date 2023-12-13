@@ -1,6 +1,7 @@
 import { useMemo, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+// FUNCTION TO MAKE REACT ROUTER ACT AS "SCROLL TO ANCHOR LINK"
 const ScrollToHash = () => {
   let location = useLocation();
 

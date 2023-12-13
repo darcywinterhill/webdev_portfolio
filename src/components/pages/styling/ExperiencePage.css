@@ -1,5 +1,5 @@
 .ExperiencePageContainer {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 100%;
   min-height: 100vh;
   padding-bottom: 15px;
@@ -10,8 +10,6 @@
 }
 
 .ExperienceHeader {
-  /* display: flex;
-  flex-direction: column; */
   margin-top: 100px;
   width: 90%;
 }
@@ -30,7 +28,7 @@
 }
 
 .ProjectSectionContainer {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 90%;
   height:fit-content;
   display: flex;
@@ -56,13 +54,13 @@
 
 .WorkSectionContainer {
   width: 90%;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background-color: #F9EBD9;
   padding: 0 10px 10px 10px;
 }
 
 /* TABLET VIEW */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .ExperienceHeader {
     width: 70%;
   }
@@ -81,7 +79,7 @@
 }
 
 /* DESKTOP VIEW */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .ExperienceHeader {
     margin-top: 80px;
   }

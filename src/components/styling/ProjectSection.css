@@ -1,5 +1,5 @@
 .ProjectWrapper {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 100%;
   /* margin-top: 15px; */
   padding: 20px;
@@ -12,7 +12,7 @@
 .ProjectImage {
   width: 50%;
   height: auto;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border: 2px solid #A86520;
   border-radius: 5%;
 }
@@ -39,7 +39,7 @@
 }
 
 /* TABLET VIEW */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .ProjectImage {
     width: 60%;
   }
@@ -50,7 +50,7 @@
 }
 
 /* DESKTOP VIEW */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .ProjectWrapper {
     margin-top: 30px;
     width: 49%;

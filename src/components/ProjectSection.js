@@ -5,6 +5,7 @@ import LinkButton from "../components/UI/LinkButton";
 
 const ProjectSection = ({ title, webpage, image, about, tech }) => {
 
+  // CREATES A LIST OF ALL TECH VALUES IN PROJECT.JSON
   const listItems = tech.map((tools, index) =>
     <li key={index}>
       <img 
@@ -15,6 +16,7 @@ const ProjectSection = ({ title, webpage, image, about, tech }) => {
     </li>
 );
 
+  //SHELL FOR ALL PROJECTS
   return (
     <div className="ProjectWrapper">
       <div className="TechContainer">
