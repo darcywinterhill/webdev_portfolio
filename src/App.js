@@ -3,7 +3,7 @@ import React from 'react';
 
 import './App.css';
 
-import ScrollToHash from "./components/ScrollToHash.js";
+// import ScrollToHash from "./components/ScrollToHash.js";
 import Header from "./components/Header";
 import MainPage from "./components/pages/MainPage";
 import AboutPage from "./components/pages/AboutPage";
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <ScrollToHash />
+        {/* <ScrollToHash /> */}
         <Header />
         <MainPage />
         <AboutPage />

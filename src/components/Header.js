@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import "./styling/Header.css";
 
@@ -8,37 +8,37 @@ const Header = () => {
       className="NavHeader"
     >
       <Link
-        to="#Main"
+        smooth to="#Main"
         className="NavLink"
       >
         Home
       </Link>
       <Link 
-        to="#About"
+        smooth to="#About"
         className="NavLink"
       >
         About
       </Link>
       <Link
-        to="#Projects"  
+        smooth to="#Projects"  
         className="NavLink"
       >
         Projects
       </Link>
       <Link
-        to="#Work"
+        smooth to="#Work"
         className="NavLink"
       >
         Work
       </Link>
       <Link 
-        to="#Misc"
+        smooth to="#Misc"
         className="NavLink"
       >
         Misc
       </Link>
       <Link 
-        to="#Contact"
+        smooth to="#Contact"
         className="NavLink"
       >
         Contact
