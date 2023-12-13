@@ -1,5 +1,6 @@
 # Portfolio
 Individual project during System developer .NET studies @ Lexicon. Written with React, using react-router-dom.
+- View live @ https://darcywinterhill.netlify.app/
 
 ## Project Description
 A responsive portfolio to display programming projects as well as other experiences and contact.
