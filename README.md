@@ -13,3 +13,4 @@ A responsive portfolio to display programming projects as well as other experien
 
 ## Room for improvement
 - Smaller components for more reusable code
+- Figure out vh for mobile, that isn't affected by browser
