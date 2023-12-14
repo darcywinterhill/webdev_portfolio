@@ -17,7 +17,7 @@ const Greeting = () => {
         </h1>
       </div>
       <p>
-        Web Developer/CX Passionate
+        Web Developer/CX passionate
       </p>
       <ConnectButton />
     </div>
