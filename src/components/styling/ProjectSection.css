@@ -1,7 +1,5 @@
 .ProjectWrapper {
-  /* box-sizing: border-box; */
   width: 100%;
-  /* margin-top: 15px; */
   padding: 20px;
   background-color: white;
   display: flex;
@@ -12,7 +10,6 @@
 .ProjectImage {
   width: 50%;
   height: auto;
-  /* box-sizing: border-box; */
   border: 2px solid #A86520;
   border-radius: 5%;
 }

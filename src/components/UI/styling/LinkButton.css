@@ -10,7 +10,9 @@
   text-align: center;
 }
 
-.ProjectLink:hover {
-  background-color: #8D4038;
-  color: #F9EBD9;
+@media screen and (min-width: 1024px) {
+  .ProjectLink:hover {
+    background-color: #8D4038;
+    color: #F9EBD9;
+  }
 }

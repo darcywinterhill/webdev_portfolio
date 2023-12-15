@@ -17,14 +17,8 @@
   text-decoration: none;
   width: 20%;
   text-align: center;
-  /* box-sizing: border-box; */
   border: 1px solid #8D4038;
   padding: 10px 0;
-}
-
-.NavLink:hover {
-  background-color: #8D4038;
-  color: #F9EBD9;
 }
 
 .NavLink:nth-child(2n) {
@@ -52,6 +46,11 @@
 
 /* TABLET VIEW */
 @media screen and (min-width: 1024px) {
+  .NavLink:hover {
+    background-color: #8D4038;
+    color: #F9EBD9;
+  }
+  
   .NavLink:nth-child(1n) {
     width: calc(100% / 6);
   }

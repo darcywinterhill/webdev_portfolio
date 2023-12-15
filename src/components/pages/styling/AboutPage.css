@@ -1,6 +1,5 @@
 .AboutPageContainer {
   width: 100%;
-  /* box-sizing: border-box; */
   min-height: 100vh;
   height:fit-content;
   background-color: #8D4038;
@@ -14,7 +13,6 @@
   height: fit-content;
   padding: 20px;
   background-color: #F9EBD9;
-  /* box-sizing: border-box; */
   margin-top: 100px;
 }
 

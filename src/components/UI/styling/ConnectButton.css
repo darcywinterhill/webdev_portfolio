@@ -10,7 +10,9 @@
   text-align: center;
 }
 
-.ConnectLink:hover {
-  background-color: #8D4038;
-  color: #F9EBD9;
+@media screen and (min-width: 1024px) {
+  .ConnectLink:hover {
+    background-color: #8D4038;
+    color: #F9EBD9;
+  }
 }
