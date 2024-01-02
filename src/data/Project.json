@@ -1,4 +1,18 @@
 [{
+  "title": "this brand. Webshop",
+  "webpage": "https://thisbrandwebshop.netlify.app/",
+  "image": "../../images/projects/webshop.png",
+  "about": "A mockup webshop for skin care products, w/ inspiration from other sites.",
+  "tech": ["React", "React Router", "Hooks", "React Toastify"]
+},
+{
+  "title": "Education Countdown",
+  "webpage": "https://education-countdown.netlify.app/",
+  "image": "../../images/projects/countdown.png",
+  "about": "A simple countdown app for the modules of my education.",
+  "tech": ["React", "Hooks"]
+},
+  {
   "title": "Tantverk",
   "webpage": "https://tantverk.netlify.app/",
   "image": "../../images/projects/tantverk.png",
