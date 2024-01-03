@@ -19,7 +19,7 @@ const AboutPage = () => {
             There are three things that are fundamental to who I am as a person.
             I believe in <strong>people</strong> and that everyone can accomplish great things.
             To me it's necessary to feel that what I do has a <strong>purpose</strong>.
-            I am determined to live a full life of <strong>experiences</strong>, 
+            I am determined to live a life full of <strong>experiences</strong>, 
             not giving up on dreams because of fear or comfort.
           </p>
           <br />
