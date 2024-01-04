@@ -13,6 +13,7 @@ const allProjectData = (values) => {
       key={values.title}
       title={values.title}
       webpage={values.webpage}
+      github={values.github}
       image={values.image}
       about={values.about}
       tech={values.tech}

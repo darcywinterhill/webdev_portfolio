@@ -3,7 +3,7 @@ import "./styling/ProjectSection.css";
 import plus from "../images/plus.png";
 import LinkButton from "../components/UI/LinkButton";
 
-const ProjectSection = ({ title, webpage, image, about, tech }) => {
+const ProjectSection = ({ title, webpage, github, image, about, tech }) => {
 
   // CREATES A LIST OF ALL TECH VALUES IN PROJECT.JSON
   const listItems = tech.map((tools, index) =>
@@ -39,7 +39,8 @@ const ProjectSection = ({ title, webpage, image, about, tech }) => {
           {about}
         </p>
       </div>
-      <LinkButton webpage={webpage} />
+      <LinkButton webpage={webpage} text="View Project"/>
+      <LinkButton webpage={github} text="View on Github" />
     </div>
   )
 }

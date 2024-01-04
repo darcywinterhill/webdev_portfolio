@@ -1,6 +1,6 @@
 import "./styling/LinkButton.css";
 
-const LinkButton = ({ webpage }) => {
+const LinkButton = ({ webpage, text }) => {
   return (
     <a 
       className="ProjectLink" 
@@ -8,7 +8,7 @@ const LinkButton = ({ webpage }) => {
       target="_blank"
       rel="noreferrer"
     >
-      View Project
+      {text}
     </a>
   )
 }

@@ -1,6 +1,7 @@
 [{
   "title": "this brand. Webshop",
   "webpage": "https://thisbrandwebshop.netlify.app/",
+  "github": "https://github.com/darcywinterhill/webshop",
   "image": "../../images/projects/webshop.png",
   "about": "A mockup webshop for skin care products, w/ inspiration from other sites.",
   "tech": ["React", "React Router", "Hooks", "React Toastify"]
@@ -8,6 +9,7 @@
 {
   "title": "Education Countdown",
   "webpage": "https://education-countdown.netlify.app/",
+  "github": "https://github.com/darcywinterhill/countdown",
   "image": "../../images/projects/countdown.png",
   "about": "A simple countdown app for the modules of my education.",
   "tech": ["React", "Hooks"]
@@ -15,13 +17,15 @@
   {
   "title": "Tantverk",
   "webpage": "https://tantverk.netlify.app/",
+  "github": "https://github.com/darcywinterhill/final-project-front",
   "image": "../../images/projects/tantverk.png",
-  "about": "A webpage w/ crafts projects. Final project @ Technigo Bootcamp.",
+  "about": "A webpage w/ crafts projects. *See note on Github.",
   "tech": ["React", "React Router", "Redux", "Sanity", "@material-ui"]
 },
 {
   "title": "Munamii Cakery",
   "webpage": "https://munamii-mockup.netlify.app/",
+  "github": "https://github.com/darcywinterhill/Munamii",
   "image": "../../images/projects/munamii.png",
   "about": "A mockup webpage for a cakery.",
   "tech": ["HTML", "CSS", "JavaScript"]
@@ -29,6 +33,7 @@
 {
   "title": "Vacay Planner",
   "webpage": "https://vacay-planner.netlify.app/",
+  "github": "https://github.com/darcywinterhill/project-todos",
   "image": "../../images/projects/vacay-planner.png",
   "about": "A to-do app where you can add and remove tasks and mark them as done/not done.",
   "tech": ["React", "Redux", "Styled Components"]
@@ -36,6 +41,7 @@
 {
   "title": "Popular Movies",
   "webpage": "https://popular-movie-project.netlify.app/",
+  "github": "https://github.com/darcywinterhill/project-movies",
   "image": "../../images/projects/movies.png",
   "about": "A page w/ popular movies. Built to look the same as the project model.",
   "tech": ["React", "Hooks", "React Router", "API's"]
