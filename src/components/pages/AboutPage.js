@@ -14,8 +14,8 @@ const AboutPage = () => {
           <MainImage />
           <p>
             Hey you! My name is Darcy Winterhill and I am a customer experience focused 
-            developer that loves to be creative and find relevant and user-friendly solutions. I laugh a lot 
-            and somehow I always find myself on a curious road to learn more. 
+            developer that loves to be creative and find relevant and user-friendly solutions.
+            I have a positive and upbeat mindset and somehow I always find myself on a curious road to learn more. 
             There are three things that are fundamental to who I am as a person.
             I believe in <strong>people</strong> and that everyone can accomplish great things.
             To me it's necessary to feel that what I do has a <strong>purpose</strong>.
